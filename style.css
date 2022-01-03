@@ -71,12 +71,16 @@ main {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e4ed9db (feat: done main header css)
 .photo-area {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+<<<<<<< HEAD
 .photo-area > img {
     height: 250px;
     width: 250px;
@@ -259,10 +263,71 @@ footer {
     margin-right: 1rem;
 
 =======
+=======
+>>>>>>> e4ed9db (feat: done main header css)
 .photo-area > img {
-    height: 225px;
-    width: 225px;
+    height: 250px;
+    width: 250px;
     border-radius: 50%;
     border: 1px solid #000;
+<<<<<<< HEAD
 >>>>>>> d4132a6 (feat: centred main block)
+=======
+}
+
+.main-header > div {
+    display: flex;
+}
+
+.main-header-content {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.photo-area {
+    width: 40%;
+}
+
+
+.cv-title > h1 {
+    font-size: 5rem;
+    margin: 0;
+    text-align: right;
+}
+
+.cv-title > h3 {
+    margin-top: 0.5rem;
+    text-align: right;
+    font-size: 1.5rem;
+}
+
+.contacts-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.contacts > ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-start;
+    list-style-type: none;
+    margin: 3rem 0;
+}
+
+.contacts > ul > li {
+    display: flex;
+    align-items: center;
+    text-align: right;
+    margin-top: 0.5rem;
+}
+
+.contacts > ul > li > * {
+    margin: 0;
+}
+.contacts > ul > li > h4 {
+    padding-right: 1rem;
+>>>>>>> e4ed9db (feat: done main header css)
 }
