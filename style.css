@@ -46,14 +46,15 @@ h2 {
     display: block;
     color: black;
     text-align: center;
-    padding: 0.5rem 0.45rem;
+    padding: 0.5rem 0.7rem;
     margin: 0 0.05rem;
     text-decoration: none;
 }
 
 .navbar a:hover {
-    color: yellow;
-    background: green;
+    color: #ffd61f;
+    background: #0f751f;
+    border-radius: 50%;
 }
 
 main {
