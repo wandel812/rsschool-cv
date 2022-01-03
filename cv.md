@@ -2,8 +2,9 @@
 
 ## Dmitriy Ivanov
 
-<img style="float: right; width: 200px; height: 200px; border: 1px solid;" src="assets/photo.jpg">
+<br/>
 
+<img style="float: right; width: 200px; height: 200px; border: 1px solid;" src="assets/photo.jpg">
 
 ### Contacts:
 
