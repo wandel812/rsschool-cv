@@ -1,13 +1,17 @@
 # Dmitriy Ivanov
 
 ## Contacts:
-**Telephone number:** +7951880
+**Telephone number:** +79518802381
 
 **E-mail:** ivanovdm812@gmail.com
 
 **github:** https:/github.com/wandel812/
 
-**Telegram** @ivanovdm812
+**teleg.** @ivanovdm812
+
+**discord** 
+    * rs-school server handle: *Ivanov Dmitriy (@wandel812)*
+    * general handle: *pupsik812#8696*
 
 ## Summary:
 A novice frontend-developer with technical education.
@@ -19,7 +23,7 @@ So I would like to try working for a international IT company to challange mysel
 
 **Programming languages and technologies:** JavaScript, HTML, CSS, Java, Python
 
-**Tools:** GIT, VS Code, IntelliJ IDEA
+**Tools:** GIT, VS Code, IntelliJ IDEA, pycharm, pyside, react, mui, chakraui
 
 ## Code example: 
 **Shortest Knight Path:** Given two different positions on a chess board, find the least number of moves it would take a knight to get from one to the other. The positions will be passed as two arguments in algebraic notation. For example, knight("a3", "b5") should return 1.
@@ -87,10 +91,13 @@ was programmed using Python.
 
 ## Education:
 
-1. Saratov Chernyshevsky State University -- Applied Informatics
-1. Introduction to Linux online course
+1. Saratov Chernyshevsky State University -- Applied Informatics.
+1. QA school from LANIT company.
+1. Introduction to Linux online course.
 
 ## Languages: 
 
 * Russian -- Native
 * English -- B1
+    - Language school for 3 years
+    - An additional diploma of translator in professional area
