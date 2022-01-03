@@ -4,6 +4,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html {
+    line-height: 1.15;
+}
+
 body {
     margin: 0;
 }
@@ -37,4 +41,19 @@ body {
 .navbar a:hover {
     color: yellow;
     background: green;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 4rem;
+    padding: 0 5vw;
+}
+
+.photo-area > img {
+    height: 225px;
+    width: 225px;
+    border-radius: 50%;
+    border: 1px solid #000;
 }
