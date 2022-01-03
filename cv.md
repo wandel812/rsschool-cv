@@ -1,23 +1,30 @@
-# Dmitriy Ivanov
 
-## Contacts:
-**Telephone number:** +79518802381
+<img style="float: right; width: 200px; height: 200px; border: 1px solid; margin-top: 5px;" src="assets/photo.jpg">
 
-**E-mail:** ivanovdm812@gmail.com
+## Dmitriy Ivanov
 
-**github:** https:/github.com/wandel812/
+### Contacts:
 
-**teleg.** @ivanovdm812
+- **tel. number:** +79518802381
+- **e-mail:** ivanovdm812@gmail.com
+- **github:** https:/github.com/wandel812
+- **telegram:** @ivanovdm812
+- **discord** 
+    * *rs-school handle*: Ivanov Dmitriy (@wandel812)
+    * *general handle*: pupsik812#8696
 
-**discord** 
-    * rs-school server handle: *Ivanov Dmitriy (@wandel812)*
-    * general handle: *pupsik812#8696*
+
+---
+
+<br/>
 
 ## Summary:
+
 A novice frontend-developer with technical education.
 
 I like learning new things, having fresh experience and the feeling of overcoming difficulties. 
-So I would like to try working for a international IT company to challange myself and fulfill my passion of brainworking
+
+<br/>
 
 ## Skills:
 
@@ -25,7 +32,10 @@ So I would like to try working for a international IT company to challange mysel
 
 **Tools:** GIT, VS Code, IntelliJ IDEA, pycharm, pyside, react, mui, chakraui
 
+<br/>
+
 ## Code example: 
+
 **Shortest Knight Path:** Given two different positions on a chess board, find the least number of moves it would take a knight to get from one to the other. The positions will be passed as two arguments in algebraic notation. For example, knight("a3", "b5") should return 1.
 
 The knight is not allowed to move off the board. The board is 8x8.
@@ -78,6 +88,8 @@ public class Chess {
 }
 ```
 
+<br/>
+
 ## Expirience:
 
 1. During the practice period at university was an intern at the IT company "Neoflex". Programmed a parser for loan calculator 
@@ -89,11 +101,15 @@ was programmed using Python.
     - Worked as developer on creation of an interface generator for training neural networks using python and qt framework. 
     - Developed one-page service work nn output displaying and convenient debugging using js, react, mui.
 
+<br/>
+
 ## Education:
 
 1. Saratov Chernyshevsky State University -- Applied Informatics.
 1. QA school from LANIT company.
 1. Introduction to Linux online course.
+
+<br/>
 
 ## Languages: 
 
