@@ -12,6 +12,18 @@ body {
     margin: 0;
 }
 
+p {
+    margin: 0 0 0.4rem;
+}
+
+section {
+    margin: 0.5rem 1rem;
+}
+
+h2 {
+    margin: 0.6rem 0;
+}
+
 .navbar {
     overflow: hidden;
     background-color: red;
@@ -112,10 +124,23 @@ main {
     text-align: right;
     margin-top: 0.5rem;
 }
-
 .contacts > ul > li > * {
     margin: 0;
 }
 .contacts > ul > li > h4 {
     padding-right: 1rem;
 }
+.skills-content > ul > li > *{
+    margin: 0;
+}
+.skills-content > ul > li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 0.6rem;
+}
+
+.skills-content > ul > li > p{
+    margin-left: 0.4rem;
+}
+
