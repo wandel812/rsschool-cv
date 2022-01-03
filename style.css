@@ -130,6 +130,11 @@ main {
 .contacts > ul > li > h4 {
     padding-right: 1rem;
 }
+
+.content-shift {
+    margin-left: 0.5rem;
+}
+
 .skills-content > ul > li > *{
     margin: 0;
 }
@@ -144,3 +149,17 @@ main {
     margin-left: 0.4rem;
 }
 
+.code-descripiton {
+    margin-top: 1.5rem;
+}
+
+.code-content {
+    background-color: lightgray;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.exp-content > ol ul {
+    list-style-type: ' -  ';
+    margin-left: 1rem;
+
+}
