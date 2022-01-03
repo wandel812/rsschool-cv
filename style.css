@@ -168,3 +168,12 @@ main {
     list-style-type: ' -  ';
     margin-left: 1rem;
 }
+
+.lang-content {
+    margin-left: 1.5rem;
+}
+
+.lang-content > ul ul {
+    list-style-type: ' -  ';
+    margin-left: 1rem;
+}
