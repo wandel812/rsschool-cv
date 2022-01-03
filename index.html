@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ivanov Dmitriy</title>
+    <meta name="description" content="Dmitriy Ivanov's CV">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <nav>
+            <ul>
+                <li><a href="#contact">contacts</a></li>
+                <li><a href="#about">about me</a></li>
+                <li><a href="#skills">skills</a></li>
+                <li><a href="#code">code</a></li>
+                <li><a href="#exp">expirience</a></li>
+                <li><a href="#edu">education</a></li>
+                <li><a href="#lang">languages</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <header class="main-header">
+            <div>
+                <div class="photo-area">
+                    <img src="assets/photo.jpg" alt="person photo">
+                </div>
+                <div class="main-header-content">
+                    <div class="cv-title">
+                        <h1>Dmitriy Ivanov</h1>
+                        <h3>Novice front-end developer</h3>
+                    </div>
+
+                    <div class="contacts-wrapper">
+                        <div id="contact" class="contacts">
+                            <ul>
+                                <li>
+                                    <h4>location</h4>
+                                    <address>Russia, Saratov</address>
+                                </li>
+                                <li>
+                                    <h4>tel. number</h4>
+                                    <p>+7 951 880 -- --</p>
+                                </li>
+                                <li>
+                                    <h4>telegram</h4>
+                                    <p>@ivanovdm812</p>
+                                </li>
+                                <li>
+                                    <h4>e-mail</h4>
+                                    <p><a href="mailto:ivanovdm812@gmail.com"> ivanovdm812@gmail.com</a></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="about">
+            <div id="about" class="about-title">
+                <h2>About me</h2>
+            </div>
+            <div class="about-content content-shift">
+                <p>
+                    A novice frontend-developer with technical education.
+                </p>
+                <p>
+                    I like learning new things, having fresh experience and the feeling of overcoming difficulties.
+                </p>
+            </div>
+        </section>
+        <section class="skills">
+            <div id="skills" class="skills-title">
+                <h2> Skills</h2>
+            </div>
+            <div class="skills-content content-shift">
+                <ul>
+                    <li>
+                        <h4>Programming languages and technologies:</h4>
+                        <p>JavaScript, HTML, CSS, Java, Python</p>
+                    </li>
+                    <li>
+                        <h4>Tools:</h4>
+                        <p>
+                            GIT, VS Code, IntelliJ IDEA, pycharm, pyside, react, mui, chakraui
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="code">
+            <div id="code" class="code-title">
+                <h2>Code example</h2>
+            </div>
+            <div class="code-descripiton content-shift">
+                <p>
+                    <em>Shortest Knight Path</em>
+                </p>
+                <p>
+                    Given two different positions on a chess board, find the least number of moves it would take a
+                    knight to get from one to the other. The positions will be passed as two arguments in algebraic
+                    notation. For example, knight("a3", "b5") should return 1.
+                </p>
+                <p>
+                    The knight is not allowed to move off the board. The board is 8x8.
+                </p>
+
+            </div>
+            <div class="code-content">
+                <pre>
+                    <code>
+public class Chess {
+    private static int[] dx = {1, -1, 1, -1,  2, 2, -2, -2};
+    private static int[] dy = {2, 2, -2, -2, -1, 1,  1, -1};
+    private static int moveOptionsCnt = 8;
+    
+    private static int depth = 24;
+    private static int ans;
+    private static boolean[][] used;
+    
+    private static void run(int sX, int sY, int fX, int fY, int stepsCnt) {    
+        if (stepsCnt > ans || stepsCnt > depth)
+        return;
+        
+        if (sX == fX && sY == fY) {
+        if (ans > stepsCnt)
+            ans = stepsCnt;
+        return;
+        }
+        
+        used[sX-1][sY-1] = true;
+        
+        for (int i = 0; i &lt; moveOptionsCnt; i++) {
+        int toX = sX + dx[i];
+        int toY = sY + dy[i];
+        if (0 &lt; toX && toX &lt; 9 && 0 &lt; toY && toY &lt; 9 && !used[toX-1][toY-1]) {
+            run(toX, toY, fX, fY, stepsCnt + 1);
+        }
+        }
+        
+        used[sX-1][sY-1] = false;
+        
+    }
+    
+    public static int knight(String start, String  finish) {
+        int sX = Integer.parseInt(start.substring(1,2));
+        int sY = start.charAt(0) - 'a' + 1;
+        int fX = Integer.parseInt(finish.substring(1,2));
+        int fY = finish.charAt(0) - 'a' + 1;
+        ans = 1000;
+        used = new boolean[8][8];
+        run(sX, sY, fX, fY, 0);
+        
+        return ans;
+    }
+}
+                    </code>
+                </pre>
+            </div>
+            <div class="project-demo">
+                <p>
+                    Also a bunch of demo projects is available by click:
+                </p>
+                <ul>
+                    <li><a href="https://github.com/wandel812/chess">Java based chess game with p2p mode</a></li>
+                    <li><a href="https://github.com/wandel812/tamagotchi">Tamagochi written in java as well</a></li>
+                    <li><a href="https://github.com/wandel812/Tic-Tac-Toe">Tic-Tac-Toe game in python</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="exp">
+            <div id="exp" class="exp-title">
+                <h2>Expirience</h2>
+            </div>
+            <div class="exp-content content-shift">
+                <ol>
+                    <li>
+                        <p>
+                            During the practice period at university was an intern at the IT company Neoflex.
+                            Programmed a parser for loan calculator
+                            website using Java.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Bachelor's degree graduation project &ndash; "Automation of the construction of
+                            computational
+                            domains for the finite volume method".
+                        </p>
+                    </li>
+                    <li>
+                        <p>Lanit, 1.5 year.</P>
+                        <ul>
+                            <li>
+                                <p>
+                                    As QA wrote autotest using gherkin and selenide.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Worked as developer on creation of an interface generator for training neural
+                                    networks using python and qt framework.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Developed one-page service work nn output displaying and convenient debugging using
+                                    js, react, mui.
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+        </section>
+        <section class="edu">
+            <div id="edu" class="edu-title">
+                <h2>Education</h2>
+            </div>
+            <div class="edu-content content-shift">
+                <ul>
+                    <li>
+                        <p>
+                            Saratov Chernyshevsky State University &ndash; Applied Informatics (master).
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            QA school from Lanit company.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Introduction to Linux online course.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="lang">
+            <div id="lang" class="lang-title">
+                <h2>Languages</h2>
+            </div>
+            <div class="lang-content content-shift">
+                <ul>
+                    <li>
+                        <p>
+                            Russian &ndash; native speaker.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            English &ndash; B1.
+                        </p>
+                        <ul>
+                            <li>
+                                <p>
+                                    Language school for 3 years.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    An additional diploma of translator in professional area.
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-wrapper">
+            <div class="footer-icons">
+                <a class="icon-github" href="https://github.com/wandel812/">
+                    <img src="assets/GitHub-Mark-64px.png" alt="author's github">
+                </a>
+                <a class="icon-rsscool" href="https://rs.school/js/">
+                    <img src="assets/rs_school.svg" alt="rsschool course">
+                </a>
+            </div>
+            <div class="footer-author">
+                <h4>Ivanov Dmitriy</h4>
+                <h5>2022</h5>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
