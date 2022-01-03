@@ -159,6 +159,7 @@ main {
     margin-left: 0.5rem;
 }
 
+<<<<<<< HEAD
 .skills-content > ul > li > *{
     margin: 0;
 }
@@ -345,6 +346,8 @@ footer {
 }
 =======
 }
+=======
+>>>>>>> 1bce2fd (feat: add exp styles)
 .skills-content > ul > li > *{
     margin: 0;
 }
@@ -359,4 +362,21 @@ footer {
     margin-left: 0.4rem;
 }
 
+<<<<<<< HEAD
 >>>>>>> de775ad (feat: add css style to skills)
+=======
+.code-descripiton {
+    margin-top: 1.5rem;
+}
+
+.code-content {
+    background-color: lightgray;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.exp-content > ol ul {
+    list-style-type: ' -  ';
+    margin-left: 1rem;
+
+}
+>>>>>>> 1bce2fd (feat: add exp styles)
