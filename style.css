@@ -25,18 +25,6 @@ h2 {
     margin: 0.6rem 0;
 }
 
-p {
-    margin: 0 0 0.4rem;
-}
-
-section {
-    margin: 0.5rem 1rem;
-}
-
-h2 {
-    margin: 0.6rem 0;
-}
-
 .navbar {
     overflow: hidden;
     background-color: #e0bb4c;
@@ -64,14 +52,9 @@ h2 {
 }
 
 .navbar a:hover {
-<<<<<<< HEAD
     color: #ffd61f;
     background: #0f751f;
     border-radius: 50%;
-=======
-    color: yellow;
-    background: green;
->>>>>>> d4132a6 (feat: centred main block)
 }
 
 main {
@@ -82,17 +65,12 @@ main {
     padding: 0 5vw;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> e4ed9db (feat: done main header css)
 .photo-area {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-<<<<<<< HEAD
 .photo-area > img {
     height: 250px;
     width: 250px;
@@ -159,7 +137,6 @@ main {
     margin-left: 0.5rem;
 }
 
-<<<<<<< HEAD
 .skills-content > ul > li > *{
     margin: 0;
 }
@@ -275,108 +252,4 @@ footer {
     width: 40px;
     margin-right: 1rem;
 
-=======
-=======
->>>>>>> e4ed9db (feat: done main header css)
-.photo-area > img {
-    height: 250px;
-    width: 250px;
-    border-radius: 50%;
-    border: 1px solid #000;
-<<<<<<< HEAD
->>>>>>> d4132a6 (feat: centred main block)
-=======
 }
-
-.main-header > div {
-    display: flex;
-}
-
-.main-header-content {
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.photo-area {
-    width: 40%;
-}
-
-
-.cv-title > h1 {
-    font-size: 5rem;
-    margin: 0;
-    text-align: right;
-}
-
-.cv-title > h3 {
-    margin-top: 0.5rem;
-    text-align: right;
-    font-size: 1.5rem;
-}
-
-.contacts-wrapper {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.contacts > ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: flex-start;
-    list-style-type: none;
-    margin: 3rem 0;
-}
-
-.contacts > ul > li {
-    display: flex;
-    align-items: center;
-    text-align: right;
-    margin-top: 0.5rem;
-}
-.contacts > ul > li > * {
-    margin: 0;
-}
-.contacts > ul > li > h4 {
-    padding-right: 1rem;
-<<<<<<< HEAD
->>>>>>> e4ed9db (feat: done main header css)
-}
-=======
-}
-=======
->>>>>>> 1bce2fd (feat: add exp styles)
-.skills-content > ul > li > *{
-    margin: 0;
-}
-.skills-content > ul > li {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-top: 0.6rem;
-}
-
-.skills-content > ul > li > p{
-    margin-left: 0.4rem;
-}
-
-<<<<<<< HEAD
->>>>>>> de775ad (feat: add css style to skills)
-=======
-.code-descripiton {
-    margin-top: 1.5rem;
-}
-
-.code-content {
-    background-color: lightgray;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-.exp-content > ol ul {
-    list-style-type: ' -  ';
-    margin-left: 1rem;
-
-}
->>>>>>> 1bce2fd (feat: add exp styles)
