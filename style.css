@@ -10,6 +10,7 @@ html {
 
 body {
     margin: 0;
+    background-color: #f5f2e9;
 }
 
 p {
@@ -26,7 +27,7 @@ h2 {
 
 .navbar {
     overflow: hidden;
-    background-color: red;
+    background-color: #e0bb4c;
     position: fixed;
     top: 0;
     width: 100%;
@@ -187,4 +188,47 @@ pre {
 .lang-content > ul ul {
     list-style-type: ' -  ';
     margin-left: 1rem;
+}
+
+footer {
+    background-color: #e0bb4c;
+}
+
+.footer-wrapper {
+    margin: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-author {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.footer-author h4 {
+    margin: 0;
+}
+.footer-author h5 {
+    margin: 0;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.icon-rsscool img {
+    height: 64px;
+    width: 64px;
+    margin-right: 1rem;
+}
+
+.icon-github img {
+    height: 40px;
+    width: 40px;
+    margin-right: 1rem;
+
 }
