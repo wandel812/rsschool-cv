@@ -1,9 +1,9 @@
 
 <img style="float: right; width: 200px; height: 200px; border: 1px solid; margin-top: 5px;" src="assets/photo.jpg">
 
-## Dmitriy Ivanov
+### Dmitriy Ivanov
 
-### Contacts:
+#### Contacts:
 
 - **tel. number:** +79518802381
 - **e-mail:** ivanovdm812@gmail.com
