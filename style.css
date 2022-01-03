@@ -1,3 +1,255 @@
 * {
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    line-height: 1.15;
+}
+
+body {
     margin: 0;
+    background-color: #f5f2e9;
+}
+
+p {
+    margin: 0 0 0.4rem;
+}
+
+section {
+    margin: 0.5rem 1rem;
+}
+
+h2 {
+    margin: 0.6rem 0;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #e0bb4c;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: end;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    list-style-type: none;
+    margin: 0.4rem 0.5rem;
+}
+
+.navbar a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0.5rem 0.7rem;
+    margin: 0 0.05rem;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #ffd61f;
+    background: #0f751f;
+    border-radius: 50%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 4rem;
+    padding: 0 5vw;
+}
+
+.photo-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo-area > img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+
+.main-header > div {
+    display: flex;
+}
+
+.main-header-content {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.photo-area {
+    width: 40%;
+}
+
+
+.cv-title > h1 {
+    font-size: 5rem;
+    margin: 0;
+    text-align: right;
+}
+
+.cv-title > h3 {
+    margin-top: 0.5rem;
+    text-align: right;
+    font-size: 1.5rem;
+}
+
+.contacts-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.contacts > ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-start;
+    list-style-type: none;
+    margin: 3rem 0;
+}
+
+.contacts > ul > li {
+    display: flex;
+    align-items: center;
+    text-align: right;
+    margin-top: 0.5rem;
+}
+.contacts > ul > li > * {
+    margin: 0;
+}
+.contacts > ul > li > h4 {
+    padding-right: 1rem;
+}
+
+.content-shift {
+    margin-left: 0.5rem;
+}
+
+.skills-content > ul > li > *{
+    margin: 0;
+}
+.skills-content > ul > li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 0.6rem;
+}
+
+.skills-content > ul > li > p{
+    margin-left: 0.4rem;
+}
+
+.code-descripiton {
+    margin-top: 1.5rem;
+}
+
+.code-content {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+pre {
+    background-color: lightgray;
+    padding: 0 2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.exp-content {
+    margin-left: 2rem;
+}
+
+.exp-content > ol ul {
+    list-style-type: ' -  ';
+    margin-left: 1rem;
+
+}
+
+.project-demo ul{
+    list-style-type: ' -  ';
+    margin: 0;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.project-demo a {
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+.project-demo a:hover {
+    color: #ffd61f;
+    background: #0f751f;
+}
+
+.edu ul {
+    list-style-type: ' -  ';
+    margin-left: 1rem;
+}
+
+.lang-content {
+    margin-left: 1.5rem;
+}
+
+.lang-content > ul ul {
+    list-style-type: ' -  ';
+    margin-left: 1rem;
+}
+
+footer {
+    background-color: #e0bb4c;
+}
+
+.footer-wrapper {
+    margin: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-author {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.footer-author h4 {
+    margin: 0;
+}
+.footer-author h5 {
+    margin: 0;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.icon-rsscool img {
+    height: 64px;
+    width: 64px;
+    margin-right: 1rem;
+}
+
+.icon-github img {
+    height: 40px;
+    width: 40px;
+    margin-right: 1rem;
+
 }
