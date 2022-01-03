@@ -7,3 +7,34 @@
 body {
     margin: 0;
 }
+
+.navbar {
+    overflow: hidden;
+    background-color: red;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: end;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    list-style-type: none;
+    margin: 0.4rem 0.5rem;
+}
+
+.navbar a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0.5rem 0.45rem;
+    margin: 0 0.05rem;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: yellow;
+    background: green;
+}
