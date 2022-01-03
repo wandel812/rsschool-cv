@@ -1,9 +1,11 @@
 
-<img style="float: right; width: 200px; height: 200px; border: 1px solid; margin-top: 5px;" src="assets/photo.jpg">
 
-### Dmitriy Ivanov
+## Dmitriy Ivanov
 
-#### Contacts:
+<img style="float: right; width: 200px; height: 200px; border: 1px solid;" src="assets/photo.jpg">
+
+
+### Contacts:
 
 - **tel. number:** +79518802381
 - **e-mail:** ivanovdm812@gmail.com
@@ -13,6 +15,7 @@
     * *rs-school handle*: Ivanov Dmitriy (@wandel812)
     * *general handle*: pupsik812#8696
 
+<br/><br/>
 
 ---
 
