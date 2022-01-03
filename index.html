@@ -119,7 +119,6 @@ public class Chess {
     private static int[] dx = {1, -1, 1, -1,  2, 2, -2, -2};
     private static int[] dy = {2, 2, -2, -2, -1, 1,  1, -1};
     private static int moveOptionsCnt = 8;
-<<<<<<< HEAD
 
     private static int depth = 24;
     private static int ans;
@@ -149,37 +148,6 @@ public class Chess {
 
     }
 
-=======
-    
-    private static int depth = 24;
-    private static int ans;
-    private static boolean[][] used;
-    
-    private static void run(int sX, int sY, int fX, int fY, int stepsCnt) {    
-        if (stepsCnt > ans || stepsCnt > depth)
-        return;
-        
-        if (sX == fX && sY == fY) {
-        if (ans > stepsCnt)
-            ans = stepsCnt;
-        return;
-        }
-        
-        used[sX-1][sY-1] = true;
-        
-        for (int i = 0; i < moveOptionsCnt; i++) {
-        int toX = sX + dx[i];
-        int toY = sY + dy[i];
-        if (0 < toX && toX < 9 && 0 < toY && toY < 9 && !used[toX-1][toY-1]) {
-            run(toX, toY, fX, fY, stepsCnt + 1);
-        }
-        }
-        
-        used[sX-1][sY-1] = false;
-        
-    }
-    
->>>>>>> 403a645 (refactor: chage some margins)
     public static int knight(String start, String  finish) {
         int sX = Integer.parseInt(start.substring(1,2));
         int sY = start.charAt(0) - 'a' + 1;
@@ -188,10 +156,6 @@ public class Chess {
         ans = 1000;
         used = new boolean[8][8];
         run(sX, sY, fX, fY, 0);
-<<<<<<< HEAD
-=======
-        
->>>>>>> 403a645 (refactor: chage some margins)
         return ans;
     }
 }
@@ -311,7 +275,6 @@ public class Chess {
     <footer>
         <div class="footer-wrapper">
             <div class="footer-icons">
-<<<<<<< HEAD
                 <a class="icon-github" href="https://github.com/wandel812/">
                     <img src="assets/GitHub-Mark-64px.png" alt="author's github">
                 </a>
@@ -324,17 +287,6 @@ public class Chess {
                 <h5>2022</h5>
             </div>
         </div>
-=======
-                <a class="icon-rsscool" href="https://rs.school/js/"></a>
-                <a class="icon-github" href=""
-            </div>
-            <div class="footer-author">
-                <span>Ivanov Dmitriy 2022</span>                
-            </div>
-
-        </div>
-
->>>>>>> 626ecff (feat: add footer html)
     </footer>
 </body>
 
