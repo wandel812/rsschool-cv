@@ -5,42 +5,56 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title></title>
-    <meta name="description" content="style.css">
+    <meta name="description" content="Dmitriy Ivanov's CV">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-        <div>
-            <div class="photo-area">
-                <img src="assets/photo.jpg" alt="person photo">
-            </div>
-            <div class="cv-title">
-                <h1>Dmitriy Ivanov</h1>
-                <h3>Novice front-end developer</h3>
-            </div>
-            <div class="contacts">
-                <ul>
-                    <li>
-                        <h4>location</h4>
-                        <address>Russia, Saratov</address>
-                    </li>
-                    <li>
-                        <h4>tel. number</h4>
-                        <p>+7 951 880 -- --</p>
-                    </li>
-                    <li>
-                        <h4>e-mail</h4>
-                        <p><a href="mailto:ivanovdm812@gmail.com"> ivanovdm812@gmail.com</a></p>
-                    </li>
-                </ul>
-            </div>
-        </div>
+    <header class="nav-header">
+        <nav>
+            <ul>
+                <li><a href="#contact">contacts</a></li>
+                <li><a href="#about">about me</a></li>
+                <li><a href="#skills">skills</a></li>
+                <li><a href="#code">code</a></li>
+                <li><a href="#exp">expirience</a></li>
+                <li><a href="#edu">education</a></li>
+                <li><a href="#lang">languages</a></li>
+            </ul>
+        </nav>
+
     </header>
     <main>
+        <header class="main-header">
+            <div>
+                <div class="photo-area">
+                    <img src="assets/photo.jpg" alt="person photo">
+                </div>
+                <div class="cv-title">
+                    <h1>Dmitriy Ivanov</h1>
+                    <h3>Novice front-end developer</h3>
+                </div>
+                <div id="contact" class="contacts">
+                    <ul>
+                        <li>
+                            <h4>location</h4>
+                            <address>Russia, Saratov</address>
+                        </li>
+                        <li>
+                            <h4>tel. number</h4>
+                            <p>+7 951 880 -- --</p>
+                        </li>
+                        <li>
+                            <h4>e-mail</h4>
+                            <p><a href="mailto:ivanovdm812@gmail.com"> ivanovdm812@gmail.com</a></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
         <section class="about">
-            <div class="about-title">
+            <div id="about" class="about-title">
                 <h2>About me</h2>
             </div>
             <div class="about-content">
@@ -53,7 +67,7 @@
             </div>
         </section>
         <section class="skills">
-            <div class="skills-title">
+            <div id="skills" class="skills-title">
                 <h2> Skills</h2>
             </div>
             <div class="skills-content">
@@ -72,7 +86,7 @@
             </div>
         </section>
         <section class="code">
-            <div class="code-title">
+            <div id="code" class="code-title">
                 <h2>Code example</h2>
             </div>
             <div class="code-descripiton">
@@ -139,7 +153,7 @@
             </div>
         </section>
         <section class="exp">
-            <div class="exp-title">
+            <div id="exp" class="exp-title">
                 <h2>Expirience</h2>
             </div>
             <div class="exp-content">
@@ -153,7 +167,7 @@
                     </li>
                     <li>
                         <p>
-                            Bachelor's degree graduation project &ensp "Automation of the construction of computational
+                            Bachelor's degree graduation project &ndash; "Automation of the construction of computational
                             domains for the finite volume method".
                         </p>
                     </li>
@@ -183,14 +197,14 @@
             </div>
         </section>
         <section class="edu">
-            <div class="edu-title">
+            <div id="edu" class="edu-title">
                 <h2>Education</h2>
             </div>
             <div class="edu-content">
                 <ul>
                     <li>
                         <p>
-                            Saratov Chernyshevsky State University &ensp Applied Informatics (master).
+                            Saratov Chernyshevsky State University &ndash; Applied Informatics (master).
                         </p>
                     </li>
                     <li>
@@ -207,19 +221,19 @@
             </div>
         </section>
         <section class="lang">
-            <div class="lang-title">
+            <div id="lang" class="lang-title">
                 <h2>Languages</h2>
             </div>
             <div class="lang-content">
                 <ul>
                     <li>
                         <p>
-                            Russian &ensp native speaker.
+                            Russian &ndash; native speaker.
                         </p>
                     </li>
                     <li>
                         <p>
-                            Englist &ensp B1.
+                            Englist &ndash; B1.
                         </p>
                         <ul>
                             <li>
