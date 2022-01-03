@@ -179,6 +179,24 @@ pre {
 
 }
 
+.project-demo ul{
+    list-style-type: ' -  ';
+    margin: 0;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.project-demo a {
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+.project-demo a:hover {
+    color: #ffd61f;
+    background: #0f751f;
+}
+
 .edu ul {
     list-style-type: ' -  ';
     margin-left: 1rem;
