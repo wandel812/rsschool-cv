@@ -135,19 +135,11 @@ public class Chess {
         }
 
         used[sX-1][sY-1] = true;
-<<<<<<< HEAD
 
         for (int i = 0; i &lt; moveOptionsCnt; i++) {
         int toX = sX + dx[i];
         int toY = sY + dy[i];
         if (0 &lt; toX &amp;&amp; toX &lt; 9 &amp;&amp; 0 &lt; toY &amp;&amp; toY &lt; 9 &amp;&amp; !used[toX-1][toY-1]) {
-=======
-        
-        for (int i = 0; i &lt; moveOptionsCnt; i++) {
-        int toX = sX + dx[i];
-        int toY = sY + dy[i];
-        if (0 &lt; toX && toX &lt; 9 && 0 &lt; toY && toY &lt; 9 && !used[toX-1][toY-1]) {
->>>>>>> bcc587c (fix: tag issues text errors)
             run(toX, toY, fX, fY, stepsCnt + 1);
         }
         }
