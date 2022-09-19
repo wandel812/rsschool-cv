@@ -49,23 +49,23 @@ public class Chess {
     private static int[] dx = {1, -1, 1, -1,  2, 2, -2, -2};
     private static int[] dy = {2, 2, -2, -2, -1, 1,  1, -1};
     private static int moveOptionsCnt = 8;
-    
+
     private static int depth = 24;
     private static int ans;
     private static boolean[][] used;
-    
-    private static void run(int sX, int sY, int fX, int fY, int stepsCnt) {    
+
+    private static void run(int sX, int sY, int fX, int fY, int stepsCnt) {
       if (stepsCnt > ans || stepsCnt > depth)
         return;
-        
+
       if (sX == fX && sY == fY) {
         if (ans > stepsCnt)
           ans = stepsCnt;
         return;
       }
-      
+
       used[sX-1][sY-1] = true;
-        
+
       for (int i = 0; i < moveOptionsCnt; i++) {
         int toX = sX + dx[i];
         int toY = sY + dy[i];
@@ -73,11 +73,11 @@ public class Chess {
           run(toX, toY, fX, fY, stepsCnt + 1);
         }
       }
-      
+
       used[sX-1][sY-1] = false;
-      
+
     }
-    
+
     public static int knight(String start, String  finish) {
         int sX = Integer.parseInt(start.substring(1,2));
         int sY = start.charAt(0) - 'a' + 1;
@@ -86,7 +86,7 @@ public class Chess {
         ans = 1000;
         used = new boolean[8][8];
         run(sX, sY, fX, fY, 0);
-        
+
         return ans;
     }
 }
