@@ -12,7 +12,7 @@
 - **e-mail:** ivanovdm812@gmail.com
 - **github:** https:/github.com/wandel812
 - **telegram:** @ivanovdm812
-- **discord** 
+- **discord**
     * *rs-school handle*: Ivanov Dmitriy (@wandel812)
     * *general handle*: pupsik812#8696
 
@@ -26,7 +26,7 @@
 
 A novice frontend-developer with technical education.
 
-I like learning new things, having fresh experience and the feeling of overcoming difficulties. 
+I like learning new things, having fresh experience and the feeling of overcoming difficulties.
 
 <br/>
 
@@ -38,7 +38,7 @@ I like learning new things, having fresh experience and the feeling of overcomin
 
 <br/>
 
-## Code example: 
+## Code example:
 
 **Shortest Knight Path:** Given two different positions on a chess board, find the least number of moves it would take a knight to get from one to the other. The positions will be passed as two arguments in algebraic notation. For example, knight("a3", "b5") should return 1.
 
@@ -96,13 +96,13 @@ public class Chess {
 
 ## Expirience:
 
-1. During the practice period at university was an intern at the IT company "Neoflex". Programmed a parser for loan calculator 
+1. During the practice period at university was an intern at the IT company "Neoflex". Programmed a parser for loan calculator
 website using Java.
 1. Bachelor's degree graduation project -- "Automation of the construction of computational domains for the finite volume method"
 was programmed using Python.
-1. LANIT. 1.5 year. 
-    - As QA wrote autotest using gherkin and selenide. 
-    - Worked as developer on creation of an interface generator for training neural networks using python and qt framework. 
+1. LANIT. 1.5 year.
+    - As QA wrote autotest using gherkin and selenide.
+    - Worked as developer on creation of an interface generator for training neural networks using python and qt framework.
     - Developed one-page service work nn output displaying and convenient debugging using js, react, mui.
 
 <br/>
@@ -115,7 +115,7 @@ was programmed using Python.
 
 <br/>
 
-## Languages: 
+## Languages:
 
 * Russian -- Native
 * English -- B1
