@@ -125,11 +125,11 @@ public class Chess {
     private static boolean[][] used;
     
     private static void run(int sX, int sY, int fX, int fY, int stepsCnt) {    
-        if (stepsCnt > ans || stepsCnt > depth)
+        if (stepsCnt &gt; ans || stepsCnt &gt; depth)
         return;
         
-        if (sX == fX && sY == fY) {
-        if (ans > stepsCnt)
+        if (sX == fX &amp;&amp; sY == fY) {
+        if (ans &gt; stepsCnt)
             ans = stepsCnt;
         return;
         }
@@ -139,7 +139,7 @@ public class Chess {
         for (int i = 0; i &lt; moveOptionsCnt; i++) {
         int toX = sX + dx[i];
         int toY = sY + dy[i];
-        if (0 &lt; toX && toX &lt; 9 && 0 &lt; toY && toY &lt; 9 && !used[toX-1][toY-1]) {
+        if (0 &lt; toX &amp;&amp; toX &lt; 9 &amp;&amp; 0 &lt; toY &amp;&amp; toY &lt; 9 &amp;&amp; !used[toX-1][toY-1]) {
             run(toX, toY, fX, fY, stepsCnt + 1);
         }
         }
@@ -195,7 +195,7 @@ public class Chess {
                         </p>
                     </li>
                     <li>
-                        <p>Lanit, 1.5 year.</P>
+                        <p>Lanit, 2 years.</p>
                         <ul>
                             <li>
                                 <p>
@@ -265,9 +265,7 @@ public class Chess {
                                 </p>
                             </li>
                             <li>
-                                <p>
-                                    An additional diploma of translator in professional area.
-                                </p>
+                                <p>An additional diploma of translator in professional area.</p>
                             </li>
                         </ul>
                     </li>
